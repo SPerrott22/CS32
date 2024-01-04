@@ -19,8 +19,14 @@ In all other cases, the turn ends.
 Whenever the player whose turn it is can not make a move (because their side is empty), any beans remaining in their opponent's holes are put into that opponent's pot and the game is over. The winner is the player whose pot has the most beans.
 
 ## How to Run
+Edit the Main.cpp's main function to select whether each of the two players will be an intelligent bot using the minimax algorithm, a non-intelligent bot that makes moves randomly, or a human player (requires user console input). The bots will take no longer than 5 seconds to choose their moves.
+
+_On the SEASnet Linux server:_
 Compile/link the files into an executable using:
 g32 -o kalah *.cpp
+
+_If not on the server:_
+g++ -o kalah *.cpp
 
 Run the program:
 ./kalah
