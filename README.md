@@ -22,11 +22,14 @@ Whenever the player whose turn it is can not make a move (because their side is 
 Edit the Main.cpp's main function to select whether each of the two players will be an intelligent bot using the minimax algorithm, a non-intelligent bot that makes moves randomly, or a human player (requires user console input). The bots will take no longer than 5 seconds to choose their moves.
 
 _On the SEASnet Linux server:_
+
 Compile/link the files into an executable using:
-g32 -o kalah *.cpp
+`g32 -o kalah *.cpp`
 
 _If not on the server:_
-g++ -o kalah *.cpp
+
+Compile/link the files using your favorite compiler e.g.:
+`g++ -o kalah *.cpp`
 
 Run the program:
-./kalah
+`./kalah`
